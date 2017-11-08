@@ -1,0 +1,3 @@
+zet:
+    resource: "@zetBundle/Resources/config/routing/routing.yml"
+    prefix:   /

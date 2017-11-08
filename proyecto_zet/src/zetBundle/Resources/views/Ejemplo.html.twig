@@ -1,0 +1,12 @@
+{% extends "layout.html.twig" %}
+
+{% block view %}
+<form  method="post" action="{{ path('rutaFormula') }}">
+  Nombre    <br><input class="form-control" placeholder="ingresa tu nombre" type="text"  name="nombre" value=""> <br><br>
+  Apellidos <br><input class="form-control" placeholder="ingresa tus Apellidos" type="text"  name="apellidos" value=""><br><br>
+  Edad      <br><input class="form-control" placeholder="ingresa tu Edad" type="text"  name="edad" value=""><br><br>
+  E-mail    <br><input class="form-control" placeholder="ingresa tu Email" type="text"  name="email" value=""><br><br>
+  Ocupacion <br><input class="form-control" placeholder="ingresa tu ocupacion" type="text"  name="ocupacion" value=""><br><br>
+  <input class="btn btn-succes" type="submit"  name="submit" value="enviar"><br><br>
+</form>
+  {% endblock %}

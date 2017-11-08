@@ -1,0 +1,31 @@
+zet_homepage:
+    path:     /
+    defaults: { _controller: zetBundle:Main:mostrar }
+
+rutazet:
+    path: /pos
+    defaults: {_controller:zetBundle:Main:pistear}
+
+otrozet:
+    path: /otro
+    defaults: {_controller:zetBundle:Main:otra}
+
+staruta:
+    path: /Mother
+    defaults: {_controller:zetBundle:Main:men}
+
+rutaEjemploGet:
+    path: /Ejemplo/Get
+    defaults: {_controller:zetBundle:Main:Formulario}
+
+rutaFormula:
+    path: /Nueva/get
+    defaults: {_controller:zetBundle:Main:Formula}
+
+rutaUsuarios:
+    path: /Usuarios
+    defaults: {_controller:zetBundle:Main:usuarios}
+
+rutagamer:
+    path: /muestra
+    defaults: {_controller:zetBundle:Main:gamer}

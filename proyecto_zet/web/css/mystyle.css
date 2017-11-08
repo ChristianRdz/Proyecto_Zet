@@ -1,0 +1,5 @@
+.navbar-brand {
+  color: white !important;
+}.navbar-brand:hover {
+  color: RED !important
+}
