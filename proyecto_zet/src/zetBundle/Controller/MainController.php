@@ -87,6 +87,16 @@ $message= \Swift_Massage::newInstance()
 $mailer->send($massage);
 
     }
+    public function BonetoAction()
+    {
+        return $this->render("zetBundle::Yomero.html.twig");
+    }
+
+    public function OmoewaAction()
+    {
+        return $this->render("zetBundle::Llamame.html.twig");
+    }
+
   }
 ##################################
 #bien sad mi vida :,v

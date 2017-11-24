@@ -29,3 +29,11 @@ rutaUsuarios:
 rutagamer:
     path: /muestra
     defaults: {_controller:zetBundle:Main:gamer}
+
+Guapote:
+        path: /sobremi
+        defaults: {_controller:zetBundle:Main:Boneto}
+
+Contacto:
+        path: /contactame
+        defaults: {_controller:zetBundle:Main:Omoewa}

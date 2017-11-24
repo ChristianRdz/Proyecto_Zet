@@ -68,7 +68,7 @@ html {
 
 nav{
     /* dejar el navegador fijo */
-    position:fixed;
+    /*position:fixed;*/
     width: 100%;
     /* sobre los elementos */
     z-index: 2;
@@ -1819,7 +1819,7 @@ blockquote {
 }
 
 .majoras{
-align-items:center; 
+align-items:center;
 }
 
 /*TERMINA CSS DEL BLOG*/

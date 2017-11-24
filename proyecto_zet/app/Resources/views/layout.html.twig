@@ -5,16 +5,20 @@
     <meta charset="utf-8">
   <title>{% block title %}proyecto_zet{% endblock %}</title>
   {% block stylesheets %}
-  <link rel="stylesheet"type="text/css" href="{{asset('css/bootstrap.min.css') }}">
+
+  <!--<link rel="stylesheet"type="text/css" href="{{asset('css/bootstrap.min.css') }}">-->
 <link href="{{ asset('css/style.css') }}" type="text/css" rel="stylesheet" />
 <link href="{{ asset('css/bootstrap.css') }}" type="text/css" rel="stylesheet" />
 <link href="{{ asset('css/font-awesome.min.css') }}" type="text/css" rel="stylesheet" />
+
+
+
 
 <!--<link href="{{ asset('css/bootstrap2.min.css') }}" type="text/css" rel="stylesheet" /> -->
 
     {% endblock %}
 
-  <link rel="icon" type="image/x-icon" href="{{asset('favicon.ico') }}" />
+    <link rel="shortcut icon" type=imagen/x-icon href="img/logotipo.png">
 
 
 <!-- NAVEGADOR CRISTIAN
@@ -38,7 +42,7 @@ FIN NAVEGADOR CRISTIAN-->
     <li><a href="{{path('staruta')}}">Earth Bound</a></li>
   </ul>
   <ul class="nav navbar-nav navbar-right">
-    <li><a href="{{path('rutaUsuarios')}}"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+    <li><a href="{{path('rutaUsuarios')}}"><span class="glyphicon glyphicon-user"></span> Suscribirse</a></li>
     <li><a href="{{path('rutagamer')}}"><span class="glyphicon glyphicon-log-in"></span> Miembros</a></li>
   </ul>
 </div>
@@ -99,21 +103,21 @@ FIN NAVEGADOR CRISTIAN-->
     <!-- Blog Entries Column -->
     <div class="col-md-8">
 
-      <h1 class="my-4">Page Heading
-        <small>Secondary Text</small>
+      <h1 class="my-4">Seleccion de Reseñas
+        <small>Reseñas personales y centradas</small>
       </h1>
 
       <!-- Blog Post -->
       <div class="card mb-4">
-        <img class="card-img-top" src="img/zeldaID.jpg" alt="Card image cap">
+        <img class="card-img-top" src="img/TLOZMM.jpg" alt="Card image cap">
         <div class="card-body">
-          <h2 class="card-title">Post Title</h2>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-          <a href="#" class="btn btn-primary">Read More &rarr;</a>
+          <h2 class="card-title">The Legend of Zelda</h2>
+          <p class="card-text">The leyend of Zelda es una de las sagas mas conocidas de nintendo es muy extensa en historia y en factores de fantacia que lo hacen unos de los mejores juegos de calabosos y mundo avierto de los tiempos. En este caso Majora´s Mask rompio el estereotio de juego inocente o con trama simplona y alegre que los juegos de aquellos tiempos tenian, a mi parecer este juego fue echo para personas que buscan un reto y una historia centrada en la espernza de un nuevo amanecer, Este juego esta catalogado como el mas sombrio de la saga, especulaciones dicen que fue or el poco tiempo que le dieron a los desarroadores para acabarlo, faltando una que otra revicion en la historia... </p>
+          <a href="{{path('rutazet')}}" class="btn btn-primary">seguir leyendo &rarr;</a>
         </div>
         <div class="card-footer text-muted">
-          Posted on January 1, 2017 by
-          <a href="#">Start Bootstrap</a>
+          Posteado en Noviembre 7, 2017 por
+          <a href="{{path('zet_homepage')}}">Christian</a>
         </div>
       </div>
 
@@ -121,13 +125,13 @@ FIN NAVEGADOR CRISTIAN-->
       <div class="card mb-4">
         <img class="card-img-top" src="img/firepro.jpg" alt="Card image cap">
         <div class="card-body">
-          <h2 class="card-title">Post Title</h2>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-          <a href="#" class="btn btn-primary">Read More &rarr;</a>
+          <h2 class="card-title">Fire Emblem</h2>
+          <p class="card-text">Juego propiedad de Nintendo y desarrollado por Inteligent´s Sistem´s es un juego de RPG por turnos que se basa en aventura fantástica con temática de Caballeros, magos y Dragones Legendarios, este juego tiene una larga historia en el mercado, iniciando como juego único de Japón, se hizo famoso gracias a sus personajes que salieron en el Smash Bros Melee "El legendario primer rey joven portador de la Falchion, Marth" y "El héroe hijo de Eliwood, portador de las llamas flameantes, Roy", Aunque en la época de la nintendo Ds este empezó a decaer mucho en ventas y en fama... </p>
+          <a href="{{path('otrozet')}}" class="btn btn-primary">Seguir leyendo &rarr;</a>
         </div>
         <div class="card-footer text-muted">
-          Posted on January 1, 2017 by
-          <a href="#">Start Bootstrap</a>
+          Posteado en Noviembre 7, 2017 por
+          <a href="{{path('zet_homepage')}}">Christian</a>
         </div>
       </div>
 
@@ -135,13 +139,13 @@ FIN NAVEGADOR CRISTIAN-->
       <div class="card mb-4">
         <img class="card-img-top" src="img/mother33.jpg" alt="Card image cap">
         <div class="card-body">
-          <h2 class="card-title">Post Title</h2>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-          <a href="#" class="btn btn-primary">Read More &rarr;</a>
+          <h2 class="card-title">Mother (Earth Bound)</h2>
+          <p class="card-text">Mother en Oriente, pero, conocido como Earth Bound en Occidente es un juego que inicio en a NESS, este juego revoluciono a los RPG ya que este juego teniendo todos los elementos de un juego RPG, tenía una temática de la vida actual y mas caricaturesca, pero sin perder la esencia de ser un juego serio, con una historia compleja y con las dinámicas de juego entretenidas y únicas...</p>
+          <a href="{{path('staruta')}}" class="btn btn-primary">Seguir leyendo &rarr;</a>
         </div>
         <div class="card-footer text-muted">
-          Posted on January 1, 2017 by
-          <a href="#">Start Bootstrap</a>
+          Posteado en Noviembre 7, 2017 por
+          <a href="{{path('zet_homepage')}}">Christian</a>
         </div>
       </div>
       <!--termina el contenido-->
@@ -157,7 +161,7 @@ FIN NAVEGADOR CRISTIAN-->
 
 <!-- Search Widget -->
 <div class="card my-4">
-  <h5 class="card-header">Search</h5>
+  <h5 class="card-header">Buscar</h5>
   <div class="card-body">
     <div class="input-group">
       <input type="text" class="form-control" placeholder="Search for...">
@@ -170,32 +174,32 @@ FIN NAVEGADOR CRISTIAN-->
 
 <!-- Categories Widget -->
 <div class="card my-4">
-  <h5 class="card-header">Categories</h5>
+  <h5 class="card-header">Categorias</h5>
   <div class="card-body">
     <div class="row">
       <div class="col-lg-6">
         <ul class="list-unstyled mb-0">
           <li>
-            <a href="#">Web Design</a>
+            <a href="#">Reseñas</a>
           </li>
           <li>
-            <a href="#">HTML</a>
+            <a href="#">Recomendaciones</a>
           </li>
           <li>
-            <a href="#">Freebies</a>
+            <a href="#">Bitacora</a>
           </li>
         </ul>
       </div>
       <div class="col-lg-6">
         <ul class="list-unstyled mb-0">
           <li>
-            <a href="#">JavaScript</a>
+            <a href="#">3DS</a>
           </li>
           <li>
-            <a href="#">CSS</a>
+            <a href="#">Xbox 360</a>
           </li>
           <li>
-            <a href="#">Tutorials</a>
+            <a href="#">Nintendo switch</a>
           </li>
         </ul>
       </div>
@@ -205,9 +209,9 @@ FIN NAVEGADOR CRISTIAN-->
 
 <!-- Side Widget -->
 <div class="card my-4">
-  <h5 class="card-header">Side Widget</h5>
+  <h5 class="card-header">Bienvenidos</h5>
   <div class="card-body">
-    You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
+    Esta páguina fue echo de manera personal, pero con el proposito de ayudar o hacer que las personas entiendan mas sobre juegos que casi no se conocen, pero, que son una joya de los videojuegos
   </div>
 </div>
 
